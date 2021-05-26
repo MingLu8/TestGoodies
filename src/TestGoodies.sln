@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGoodies", "TestGoodies\TestGoodies.csproj", "{DED7B82F-043E-438F-87F1-39B536F27C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGoodies.Tests", "..\TestGoodies.Tests\TestGoodies.Tests.csproj", "{13263796-1750-41D4-A197-9F9A9140ADBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGoodies.Tests", "TestGoodies.Tests\TestGoodies.Tests.csproj", "{13263796-1750-41D4-A197-9F9A9140ADBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD2B62F1-0A2A-4B32-9C08-FD4FFA43084B}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
